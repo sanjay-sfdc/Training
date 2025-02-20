@@ -110,4 +110,9 @@ public with sharing class AccountHelperClass {
         
         return ownershipValues;
     }
+
+    public static void displayMessage(){
+        System.debug('This is a test code');
+    }
+
 }
